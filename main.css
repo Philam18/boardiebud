@@ -1,0 +1,63 @@
+.box{
+	width: 75%;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+body{
+	background-image: url("media/images/background-wallpaper.jpg");
+}
+
+#header-container{
+	position:relative;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+#header-text-holder{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position:relative;
+}
+
+.gap-top{
+	margin-top: 20px;
+}
+
+.gap-bottom{
+	margin-bottom: 20px;
+}
+
+.gap-right{
+	margin-right: 20px;
+}
+
+.gap-left{
+	margin-left: 20px;
+}
+
+
+#header-text-1{
+	text-align: center;
+	color: #2b2b2b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
