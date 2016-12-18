@@ -8,33 +8,23 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
 
-<?php 
-	require './../../var.php';
-?>
-
 <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
 <title>BoardieBud: Review</title>
 <html>
 <head>
-	<base href="http://localhost/boardiebud/" />
+	<link rel="stylesheet" type="text/css" href="http://localhost/boardiebud/main.css">
+	<script type="text/javascript">
+	    $(document).ready(function(){
+	    	$("#menu").load("http://localhost/boardiebud/nav.php");
+	    });
 
-	<link rel="stylesheet" type="text/css" href="main.css">
-<script type="text/javascript">
-
-	var dir="<?php echo $rootdir; ?>";
-    $(document).ready(function(){
-    	$("#menu").load(dir+"nav.php");
-    });
-
-</script>
-<div id="menu"></div>
+	</script>
+	<div id="menu"></div>
 
 </head>
 <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
 
 <body>
 
-Hello
-<?php echo $currentdir; ?>
 </body>	
 </html>
